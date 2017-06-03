@@ -32,8 +32,8 @@
     "cz-conventional-changelog": "^2.0.0",
     "jsdoc-to-markdown": "^3.0.0",
     "markdown-doctest": "^0.9.1",
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0",
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2",
     "nyc": "^11.0.2",
     "rollup": "^0.41.6",
     "rollup-plugin-commonjs": "^8.0.2",
@@ -46,7 +46,7 @@
   }],
   "license": "BSD-2-Clause",
   "engines": {
-    "node": ">=7.9.0"
+    "node": ">=7.10.0"
   },
   "config": {
     "commitizen": {
@@ -75,7 +75,7 @@
       "url": "https://www.npmjs.com/package/{{name}}"
     }, {
       "name": "Greenkeeper",
-      "icon": "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}",
+      "icon": "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}.svg",
       "url": "https://greenkeeper.io/"
     }, {
       "name": "semantic-release",
