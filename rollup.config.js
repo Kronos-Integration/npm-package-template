@@ -1,7 +1,10 @@
-/* jslint node: true, esnext: true */
-'use strict';
+import pkg from './package.json';
 
 export default {
-  format: 'cjs',
+  input: pkg.module,
+  output: {
+    format: 'cjs'
+    file: pkg.main,
+  },
   plugins: []
 };
