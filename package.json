@@ -6,6 +6,8 @@
   "main": "{{main}}",
   "keywords": ["npm-package-template"],
   "scripts": {
+    "prepublish": "-",
+
     "precover": "rollup -c",
     "cover": "nyc npm test",
 
