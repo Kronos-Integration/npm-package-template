@@ -11,7 +11,7 @@
     "precover": "rollup -c",
     "cover": "nyc npm test",
 
-    "pretest": "npm run prepublish",
+    "pretest": "rollup -c",
     "test": "mocha tests/*_test.js",
     "posttest": "markdown-doctest",
 
