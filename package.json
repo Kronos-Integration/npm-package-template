@@ -12,7 +12,7 @@
     "cover": "nyc npm test",
 
     "pretest": "rollup -c",
-    "test": "mocha tests/*_test.js",
+    "test": "mocha tests/*-test.js",
     "posttest": "markdown-doctest",
 
     "prepare": "rollup -c",
