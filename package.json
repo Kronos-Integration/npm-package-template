@@ -6,8 +6,6 @@
   "main": "{{main}}",
   "keywords": ["npm-package-template"],
   "scripts": {
-    "prepublish": "-",
-
     "precover": "rollup -c",
     "cover": "nyc npm test",
 
@@ -17,8 +15,7 @@
 
     "prepare": "rollup -c",
     "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md",
-    "semantic-release":
-      "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -41,7 +38,7 @@
     "rollup": "^0.50.0",
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "semantic-release": "^8.2.3"
+    "semantic-release": "^9.1.0"
   },
   "contributors": [
     {
