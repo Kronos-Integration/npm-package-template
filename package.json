@@ -7,7 +7,7 @@
   "keywords": ["npm-package-template"],
   "scripts": {
     "precover": "rollup -c",
-    "cover": "nyc npm test",
+    "cover": "nyc --temp-directory build/nyc npm test",
 
     "pretest": "rollup -c",
     "test": "mocha tests/*-test.js",
