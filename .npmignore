@@ -1,8 +1,8 @@
 - rollup.config.test.js
 - .DS_Store
 - .npmrc
+- node_modules
 coverage
-node_modules
 build
 tests
 doc
