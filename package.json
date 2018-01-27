@@ -17,14 +17,6 @@
     "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md",
     "semantic-release": "semantic-release"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/{{github.user}}/{{github.repo}}.git"
-  },
-  "bugs": {
-    "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
-  },
-  "homepage": "https://github.com/{{github.user}}/{{github.repo}}#readme",
   "dependencies": {},
   "devDependencies": {
     "jsdoc": "-",
