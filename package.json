@@ -202,7 +202,7 @@
     ],
     "usedBy": [
       "Kronos-Integration/kronos-interceptor-line-parser",
-      "Kronos-Integration/kronos-interceptor-line-tokens2obj"
+      "Kronos-Integration/kronos-interceptor-object-data-processor-chunk"
     ]
   }
 }
