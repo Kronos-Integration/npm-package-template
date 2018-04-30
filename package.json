@@ -206,6 +206,7 @@
       "Kronos-Integration/kronos-interceptor-line-tokenizer-csv",
       "Kronos-Integration/kronos-interceptor-line-tokens2obj",
       "Kronos-Integration/kronos-interceptor-object-data-processor-chunk",
+      "Kronos-Integration/kronos-message",
       "arlac77/registry-mixin"
     ]
   }
