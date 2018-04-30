@@ -201,8 +201,8 @@
       }
     ],
     "usedBy": [
-      "Kronos-Integration/kronos-interceptor-line-parser",
-      "arlac77/registry-mixin"
+      "Kronos-Integration/kronos-interceptor-line-header",
+      "Kronos-Integration/kronos-interceptor-line-parser"
     ]
   }
 }
