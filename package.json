@@ -215,6 +215,9 @@
         "pattern": "**/*"
       }
     ],
-    "usedBy": ["Kronos-Integration/kronos-interceptor-line-parser"]
+    "usedBy": [
+      "Kronos-Integration/kronos-interceptor-line-parser",
+      "Kronos-Integration/kronos-interceptor-line-tokens2obj"
+    ]
   }
 }
