@@ -194,7 +194,7 @@
         }
       },
       {
-        "merger": "MergeAndRemoveLineSet",
+        "merger": "NpmIgnore",
         "pattern": ".npmignore",
         "options": {
           "message": "chore(npm): update {{path}} from template"
