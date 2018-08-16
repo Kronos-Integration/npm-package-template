@@ -36,7 +36,7 @@
   ],
   "license": "BSD-2-Clause",
   "engines": {
-    "node": ">=8.11.3"
+    "node": ">=8.11.4"
   },
   "config": "--delete--",
   "xo": {
