@@ -174,7 +174,7 @@
         "merger": "MergeAndRemoveLineSet",
         "pattern": ".gitignore",
         "options": {
-          "message": "chore(git): update {{path}} from template"
+          "message": "chore(git): update {{entry.name}} from template"
         }
       },
       {
