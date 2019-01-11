@@ -28,7 +28,7 @@
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-executable": "1.4.2",
-    "semantic-release": "^15.13.2"
+    "semantic-release": "^15.13.3"
   },
   "contributors": [
     {
