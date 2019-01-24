@@ -181,7 +181,7 @@
         "merger": "NpmIgnore",
         "pattern": ".npmignore",
         "options": {
-          "message": "chore(npm): update {{path}} from template"
+          "message": "chore(npm): update {{entry.name}} from template"
         }
       },
       {
