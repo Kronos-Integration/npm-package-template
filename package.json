@@ -24,7 +24,7 @@
     "chai": "^4.2.0",
     "mocha": "^6.1.2",
     "nyc": "^14.1.1",
-    "rollup": "^1.11.3",
+    "rollup": "^1.12.0",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^4.2.4",
     "rollup-plugin-executable": "1.4.5",
