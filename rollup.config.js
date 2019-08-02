@@ -5,7 +5,8 @@ export default {
   output: {
     format: "cjs",
     file: pkg.main,
-    interop: false
+    interop: false,
+    externalLiveBindings: false
   },
   plugins: []
 };
