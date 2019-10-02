@@ -6,12 +6,10 @@ node_js:
   - -10
   - -12
   - 12.10.0
-sudo: --delete--
 branches:
   only:
     - master
     - /^greenkeeper/.*$/
-cache: npm
 notifications:
   email:
     - markus.felten@gmx.de
@@ -30,3 +28,6 @@ after_script:
   - npm run docs
 after_success:
   - npm run semantic-release
+
+cache: --delete-- npm
+sudo: --delete--
