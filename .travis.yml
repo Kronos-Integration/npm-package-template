@@ -4,6 +4,7 @@ node_js:
   - -8
   - -9
   - -10
+  - -11
   - -12
   - 12.10.0
 branches:
@@ -27,7 +28,8 @@ after_script:
   - cat ./build/coverage/lcov.info | coveralls
   - npm run docs
 after_success:
-  - npm run semantic-release
+  - --delete-- npm run semantic-release
+  - npx semantic-release
 
 cache: --delete-- npm
 sudo: --delete--

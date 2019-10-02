@@ -15,7 +15,7 @@
     "posttest": "markdown-doctest",
     "prepare": "rollup -c",
     "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md",
-    "semantic-release": "semantic-release"
+    "semantic-release": "--delete--"
   },
   "dependencies": {},
   "devDependencies": {
