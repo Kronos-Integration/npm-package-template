@@ -14,8 +14,7 @@
     "test": "mocha tests/*-test.js",
     "posttest": "markdown-doctest",
     "prepare": "rollup -c",
-    "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md",
-    "semantic-release": "--delete--"
+    "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md"
   },
   "dependencies": {},
   "devDependencies": {
@@ -24,11 +23,11 @@
     "chai": "^4.2.0",
     "mocha": "^6.2.1",
     "nyc": "^14.1.1",
-    "rollup": "^1.27.0",
+    "rollup": "^1.27.1",
     "rollup-plugin-commonjs": "^10.0.2",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-executable": "1.5.0",
-    "semantic-release": "^15.13.29"
+    "semantic-release": "^15.13.31"
   },
   "engines": {
     "node": ">=12.12.0"
