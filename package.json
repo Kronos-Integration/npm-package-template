@@ -30,7 +30,7 @@
     "semantic-release": "^15.13.31"
   },
   "engines": {
-    "node": ">=12.14.0"
+    "node": ">=12.16.1"
   },
   "contributors": [
     {
