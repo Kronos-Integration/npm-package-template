@@ -49,9 +49,9 @@
     "report-dir": "./coverage"
   },
   "template": {
-    "files": [
+    "mergers": [
       {
-        "merger": "Package",
+        "type": "Package",
         "pattern": "**/package.json",
         "options": {
           "keywords": {
@@ -69,11 +69,11 @@
         }
       },
       {
-        "merger": "Travis",
+        "type": "Travis",
         "pattern": ".travis.yml"
       },
       {
-        "merger": "Readme",
+        "type": "Readme",
         "pattern": "README.md",
         "options": {
           "badges": [
@@ -156,29 +156,29 @@
         }
       },
       {
-        "merger": "Rollup",
+        "type": "Rollup",
         "pattern": "**/rollup.config.js"
       },
       {
-        "merger": "License",
+        "type": "License",
         "pattern": "LICENSE"
       },
       {
-        "merger": "MergeAndRemoveLineSet",
+        "type": "MergeAndRemoveLineSet",
         "pattern": ".gitignore",
         "options": {
           "message": "chore(git): update {{entry.name}} from template"
         }
       },
       {
-        "merger": "NpmIgnore",
+        "type": "NpmIgnore",
         "pattern": ".npmignore",
         "options": {
           "message": "chore(npm): update {{entry.name}} from template"
         }
       },
       {
-        "merger": "ReplaceIfEmpty",
+        "type": "ReplaceIfEmpty",
         "pattern": "**/*"
       }
     ],
