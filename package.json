@@ -183,6 +183,7 @@
       }
     ],
     "usedBy": [
+      "Kronos-Integration/interceptor-line-header",
       "Kronos-Integration/kronos-interceptor-line-header",
       "Kronos-Integration/kronos-interceptor-line-parser",
       "Kronos-Integration/kronos-interceptor-line-tokenizer-csv",
